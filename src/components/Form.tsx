@@ -5,7 +5,7 @@ type Props = {
 }
 
 const Form: React.FC<Props> = ({ onRoll }: Props) => {
-    const [minDiceNumber, maxDiceNumber] = [1, 99];
+    const [minDiceNumber, maxDiceNumber] = [0, 99];
     const [diceNumber, setDiceNumber] = useState<number>(1);
 
     const onDiceNumberChange = (e: ChangeEvent<HTMLInputElement>) => {

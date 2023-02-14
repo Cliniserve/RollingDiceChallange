@@ -107,9 +107,13 @@
 }
 
 .previous-rolls {
-  margin-bottom: 20px;
   display: flex;
   flex-wrap: wrap;
+  padding: 10px;
+}
+
+.previous-rolls:nth-child(2n) {
+  background-color: #ddd;
 }
 
 .previous-rolls .die {
